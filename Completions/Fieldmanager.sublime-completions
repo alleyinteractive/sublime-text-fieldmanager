@@ -1,5 +1,5 @@
 {
-	"scope": "source.php",
+	"scope": "source.php - variable.other.php",
 	"comment": "Fieldmanager Completions",
 	"completions": [
 		{
@@ -152,7 +152,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Field::attributes",
-			"contents": "'attributes' => ${1:array(\n)},"
+			"contents": "'attributes' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Field::field_class",
@@ -176,7 +176,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Field::validate",
-			"contents": "'validate' => ${1:array(\n)},"
+			"contents": "'validate' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Field::validation_rules",
@@ -220,7 +220,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Field::display_if",
-			"contents": "'display_if' => ${1:array(\n)},"
+			"contents": "'display_if' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Field::add_more_position",
@@ -236,7 +236,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Field::meta_boxes_to_remove",
-			"contents": "'meta_boxes_to_remove' => ${1:array(\n)},"
+			"contents": "'meta_boxes_to_remove' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Field::default_value",
@@ -252,7 +252,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Field::escape",
-			"contents": "'escape' => ${1:array(\n)},"
+			"contents": "'escape' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Field::is_attachment",
@@ -260,11 +260,11 @@
 		},
 		{
 			"trigger": "Fieldmanager_Options::data",
-			"contents": "'data' => ${1:array(\n)},"
+			"contents": "'data' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Options::options",
-			"contents": "'options' => ${1:array(\n)},"
+			"contents": "'options' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Options::grouped",
@@ -272,7 +272,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Options::first_element",
-			"contents": "'first_element' => ${1:array(\n)},"
+			"contents": "'first_element' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Options::multiple",
@@ -324,15 +324,15 @@
 		},
 		{
 			"trigger": "Fieldmanager_Datepicker::js_opts",
-			"contents": "'js_opts' => ${1:array(\n)},"
+			"contents": "'js_opts' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_DraggablePost::repositories",
-			"contents": "'repositories' => ${1:array(\n)},"
+			"contents": "'repositories' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_DraggablePost::bins",
-			"contents": "'bins' => ${1:array(\n)},"
+			"contents": "'bins' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_DraggablePost::use_image_checkbox",
@@ -344,11 +344,11 @@
 		},
 		{
 			"trigger": "Fieldmanager_Grid::js_options",
-			"contents": "'js_options' => ${1:array(\n)},"
+			"contents": "'js_options' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Group::children",
-			"contents": "'children' => ${1:array(\n)},"
+			"contents": "'children' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Group::collapsible",
@@ -416,7 +416,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_RichTextArea::editor_settings",
-			"contents": "'editor_settings' => ${1:array(\n)},"
+			"contents": "'editor_settings' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_RichTextArea::buttons_1",
@@ -456,7 +456,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Context::save_keys",
-			"contents": "'save_keys' => ${1:array(\n)},"
+			"contents": "'save_keys' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Context_Post::title",
@@ -464,7 +464,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Context_Post::post_types",
-			"contents": "'post_types' => ${1:array(\n)},"
+			"contents": "'post_types' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Context_Post::context",
@@ -488,7 +488,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Context_QuickEdit::post_types",
-			"contents": "'post_types' => ${1:array(\n)},"
+			"contents": "'post_types' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Context_Submenu::parent_slug",
@@ -524,7 +524,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Context_Term::taxonomies",
-			"contents": "'taxonomies' => ${1:array(\n)},"
+			"contents": "'taxonomies' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Context_Term::show_on_add",
@@ -548,7 +548,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Datasource::options",
-			"contents": "'options' => ${1:array(\n)},"
+			"contents": "'options' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Datasource::options_callback",
@@ -580,7 +580,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Datasource_Post::query_args",
-			"contents": "'query_args' => ${1:array(\n)},"
+			"contents": "'query_args' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Datasource_Post::reciprocal",
@@ -612,7 +612,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Datasource_Term::taxonomy_args",
-			"contents": "'taxonomy_args' => ${1:array(\n)},"
+			"contents": "'taxonomy_args' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Datasource_Term::taxonomy_hierarchical",
@@ -644,7 +644,7 @@
 		},
 		{
 			"trigger": "Fieldmanager_Datasource_User::query_args",
-			"contents": "'query_args' => ${1:array(\n)},"
+			"contents": "'query_args' => ${1:array(\n\t$2\n)},"
 		},
 		{
 			"trigger": "Fieldmanager_Datasource_User::display_property",
