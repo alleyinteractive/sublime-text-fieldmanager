@@ -1,0 +1,1162 @@
+{
+	"scope": "source.php",
+	"comment": "Fieldmanager Completions",
+	"completions": [
+		{
+			"trigger": "Fieldmanager_Field",
+			"contents": "Fieldmanager_Field(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Options",
+			"contents": "Fieldmanager_Options(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Autocomplete",
+			"contents": "Fieldmanager_Autocomplete(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Checkbox",
+			"contents": "Fieldmanager_Checkbox(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Checkboxes",
+			"contents": "Fieldmanager_Checkboxes(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker",
+			"contents": "Fieldmanager_Datepicker( ${1:\\$label}${2:, ${3:\\$options}} )"
+		},
+		{
+			"trigger": "Fieldmanager_DraggablePost",
+			"contents": "Fieldmanager_DraggablePost(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Grid",
+			"contents": "Fieldmanager_Grid(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Group",
+			"contents": "Fieldmanager_Group(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Hidden",
+			"contents": "Fieldmanager_Hidden(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Link",
+			"contents": "Fieldmanager_Link(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Media",
+			"contents": "Fieldmanager_Media( ${1:\\$label}${2:, ${3:\\$options}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Password",
+			"contents": "Fieldmanager_Password(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Radios",
+			"contents": "Fieldmanager_Radios(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea",
+			"contents": "Fieldmanager_RichTextArea(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Select",
+			"contents": "Fieldmanager_Select(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_TextArea",
+			"contents": "Fieldmanager_TextArea(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_TextField",
+			"contents": "Fieldmanager_TextField(${1: ${2:\\$label}${3:, ${4:\\$options}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post",
+			"contents": "Fieldmanager_Context_Post( ${1:\\$title}, ${2:\\$post_types}${3:, ${4:\\$context}${5:, ${6:\\$priority}${7:, ${8:\\$fm}}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit",
+			"contents": "Fieldmanager_Context_QuickEdit( ${1:\\$title}, ${2:\\$post_types}, ${3:\\$column_display_callback}${4:, ${5:\\$column_title}${6:, ${7:\\$fm}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu",
+			"contents": "Fieldmanager_Context_Submenu( ${1:\\$parent_slug}, ${2:\\$page_title}${3:, ${4:\\$menu_title}${5:, ${6:\\$capability}${7:, ${8:\\$menu_slug}${9:, ${10:\\$fm}${11:, ${12:\\$already_registered}}}}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term",
+			"contents": "Fieldmanager_Context_Term( ${1:\\$title}, ${2:\\$taxonomies}${3:, ${4:\\$show_on_add}${5:, ${6:\\$show_on_edit}${7:, ${8:\\$parent}${9:, ${10:\\$fm}}}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_User",
+			"contents": "Fieldmanager_Context_User(${1: ${2:\\$title}${3:, ${4:\\$fm}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource",
+			"contents": "Fieldmanager_Datasource(${1: ${2:\\$options} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post",
+			"contents": "Fieldmanager_Datasource_Post(${1: ${2:\\$options} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term",
+			"contents": "Fieldmanager_Datasource_Term(${1: ${2:\\$options} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_User",
+			"contents": "Fieldmanager_Datasource_User(${1: ${2:\\$options} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::debug",
+			"contents": "'debug' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::limit",
+			"contents": "'limit' => ${1:1},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::minimum_count",
+			"contents": "'minimum_count' => ${1:0},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::extra_elements",
+			"contents": "'extra_elements' => ${1:1},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_more_label",
+			"contents": "'add_more_label' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::name",
+			"contents": "'name' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::label",
+			"contents": "'label' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::inline_label",
+			"contents": "'inline_label' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::label_after_element",
+			"contents": "'label_after_element' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::description",
+			"contents": "'description' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::attributes",
+			"contents": "'attributes' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::field_class",
+			"contents": "'field_class' => ${1:'element'},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::one_label_per_item",
+			"contents": "'one_label_per_item' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::sortable",
+			"contents": "'sortable' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::label_element",
+			"contents": "'label_element' => ${1:'div'},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::sanitize",
+			"contents": "'sanitize' => ${1:'sanitize_text_field'},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::validate",
+			"contents": "'validate' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::validation_rules",
+			"contents": "'validation_rules' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::validation_messages",
+			"contents": "'validation_messages' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::required",
+			"contents": "'required' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::data_type",
+			"contents": "'data_type' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::data_id",
+			"contents": "'data_id' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::save_empty",
+			"contents": "'save_empty' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::skip_save",
+			"contents": "'skip_save' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::index",
+			"contents": "'index' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::serialize_data",
+			"contents": "'serialize_data' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::datasource",
+			"contents": "'datasource' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::display_if",
+			"contents": "'display_if' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_more_position",
+			"contents": "'add_more_position' => ${1:'bottom'},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::remove_default_meta_boxes",
+			"contents": "'remove_default_meta_boxes' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::template",
+			"contents": "'template' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::meta_boxes_to_remove",
+			"contents": "'meta_boxes_to_remove' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::default_value",
+			"contents": "'default_value' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::index_filter",
+			"contents": "'index_filter' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::input_type",
+			"contents": "'input_type' => ${1:'text'},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::escape",
+			"contents": "'escape' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::is_attachment",
+			"contents": "'is_attachment' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Options::data",
+			"contents": "'data' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Options::options",
+			"contents": "'options' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Options::grouped",
+			"contents": "'grouped' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Options::first_element",
+			"contents": "'first_element' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Options::multiple",
+			"contents": "'multiple' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Options::options_template",
+			"contents": "'options_template' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Autocomplete::exact_match",
+			"contents": "'exact_match' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Autocomplete::show_edit_link",
+			"contents": "'show_edit_link' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Autocomplete::reciprocal",
+			"contents": "'reciprocal' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Autocomplete::query_callback",
+			"contents": "'query_callback' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Checkbox::checked_value",
+			"contents": "'checked_value' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Checkbox::unchecked_value",
+			"contents": "'unchecked_value' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::use_time",
+			"contents": "'use_time' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::use_am_pm",
+			"contents": "'use_am_pm' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::date_format",
+			"contents": "'date_format' => ${1:'j m y'},"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::store_local_time",
+			"contents": "'store_local_time' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::js_opts",
+			"contents": "'js_opts' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_DraggablePost::repositories",
+			"contents": "'repositories' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_DraggablePost::bins",
+			"contents": "'bins' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_DraggablePost::use_image_checkbox",
+			"contents": "'use_image_checkbox' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Grid::grid_sort",
+			"contents": "'grid_sort' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Grid::js_options",
+			"contents": "'js_options' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::children",
+			"contents": "'children' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::collapsible",
+			"contents": "'collapsible' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::collapsed",
+			"contents": "'collapsed' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::tabbed",
+			"contents": "'tabbed' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::tab_limit",
+			"contents": "'tab_limit' => ${1:0},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::label_macro",
+			"contents": "'label_macro' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::label_format",
+			"contents": "'label_format' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::label_token",
+			"contents": "'label_token' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::group_is_empty",
+			"contents": "'group_is_empty' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::add_to_prefix",
+			"contents": "'add_to_prefix' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Group::has_unserialized_descendants",
+			"contents": "'has_unserialized_descendants' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Media::button_label",
+			"contents": "'button_label' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Media::modal_button_label",
+			"contents": "'modal_button_label' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Media::modal_title",
+			"contents": "'modal_title' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Media::thumbnail_class",
+			"contents": "'thumbnail_class' => ${1:'thumbnail'},"
+		},
+		{
+			"trigger": "Fieldmanager_Media::preview_size",
+			"contents": "'preview_size' => ${1:'thumbnail'},"
+		},
+		{
+			"trigger": "Fieldmanager_Media::has_registered_media",
+			"contents": "'has_registered_media' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::editor_settings",
+			"contents": "'editor_settings' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::buttons_1",
+			"contents": "'buttons_1' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::buttons_2",
+			"contents": "'buttons_2' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::buttons_3",
+			"contents": "'buttons_3' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::buttons_4",
+			"contents": "'buttons_4' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::stylesheet",
+			"contents": "'stylesheet' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Select::type_ahead",
+			"contents": "'type_ahead' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Select::first_empty",
+			"contents": "'first_empty' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Context::fm",
+			"contents": "'fm' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context::uniqid",
+			"contents": "'uniqid' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context::save_keys",
+			"contents": "'save_keys' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::title",
+			"contents": "'title' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::post_types",
+			"contents": "'post_types' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::context",
+			"contents": "'context' => ${1:'normal'},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::priority",
+			"contents": "'priority' => ${1:'default'},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::title",
+			"contents": "'title' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::column_title",
+			"contents": "'column_title' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::column_display_callback",
+			"contents": "'column_display_callback' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::post_types",
+			"contents": "'post_types' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::parent_slug",
+			"contents": "'parent_slug' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::page_title",
+			"contents": "'page_title' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::menu_title",
+			"contents": "'menu_title' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::capability",
+			"contents": "'capability' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::menu_slug",
+			"contents": "'menu_slug' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::submit_button_label",
+			"contents": "'submit_button_label' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::wp_option_autoload",
+			"contents": "'wp_option_autoload' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::title",
+			"contents": "'title' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::taxonomies",
+			"contents": "'taxonomies' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::show_on_add",
+			"contents": "'show_on_add' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::show_on_edit",
+			"contents": "'show_on_edit' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::parent",
+			"contents": "'parent' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::reserved_fields",
+			"contents": "'reserved_fields' => ${1:array(\n  0 => 'name',\n  1 => 'slug',\n  2 => 'description',\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Context_User::title",
+			"contents": "'title' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::options",
+			"contents": "'options' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::options_callback",
+			"contents": "'options_callback' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::use_ajax",
+			"contents": "'use_ajax' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::allow_optgroups",
+			"contents": "'allow_optgroups' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::ajax_action",
+			"contents": "'ajax_action' => ${1:''},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::counter",
+			"contents": "'counter' => ${1:0},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::grouped",
+			"contents": "'grouped' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::query_callback",
+			"contents": "'query_callback' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::query_args",
+			"contents": "'query_args' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::reciprocal",
+			"contents": "'reciprocal' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::show_date",
+			"contents": "'show_date' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::date_format",
+			"contents": "'date_format' => ${1:'y-m-d'},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::publish_with_parent",
+			"contents": "'publish_with_parent' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::save_to_post_parent",
+			"contents": "'save_to_post_parent' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::only_save_to_post_parent",
+			"contents": "'only_save_to_post_parent' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::taxonomy",
+			"contents": "'taxonomy' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::taxonomy_args",
+			"contents": "'taxonomy_args' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::taxonomy_hierarchical",
+			"contents": "'taxonomy_hierarchical' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::taxonomy_hierarchical_depth",
+			"contents": "'taxonomy_hierarchical_depth' => ${1:0},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::append_taxonomy",
+			"contents": "'append_taxonomy' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::taxonomy_save_to_terms",
+			"contents": "'taxonomy_save_to_terms' => ${1:true},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::only_save_to_taxonomy",
+			"contents": "'only_save_to_taxonomy' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::store_term_taxonomy_id",
+			"contents": "'store_term_taxonomy_id' => ${1:false},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_User::query_callback",
+			"contents": "'query_callback' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_User::query_args",
+			"contents": "'query_args' => ${1:array(\n)},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_User::display_property",
+			"contents": "'display_property' => ${1:'display_name'},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_User::capability",
+			"contents": "'capability' => ${1:'list_users'},"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_User::reciprocal",
+			"contents": "'reciprocal' => ${1:null},"
+		},
+		{
+			"trigger": "Fieldmanager_Field::form_element()",
+			"contents": "form_element( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::set_options()",
+			"contents": "set_options( ${1:\\$label}, ${2:\\$options} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::element_markup()",
+			"contents": "element_markup(${1: ${2:\\$values} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::single_element_markup()",
+			"contents": "single_element_markup(${1: ${2:\\$value}${3:, ${4:\\$is_proto}} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::preload_alter_values()",
+			"contents": "preload_alter_values( ${1:\\$values} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::wrap_with_multi_tools()",
+			"contents": "wrap_with_multi_tools( ${1:\\$html}${2:, ${3:\\$classes}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_form_name()",
+			"contents": "get_form_name(${1: ${2:\\$multiple} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_form_tree()",
+			"contents": "get_form_tree()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_element_id()",
+			"contents": "get_element_id()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_element_key()",
+			"contents": "get_element_key()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::is_repeatable()",
+			"contents": "is_repeatable()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::is_group()",
+			"contents": "is_group()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::presave_all()",
+			"contents": "presave_all( ${1:\\$values}, ${2:\\$current_values} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::presave()",
+			"contents": "presave( ${1:\\$value}${2:, ${3:\\$current_value}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_element_attributes()",
+			"contents": "get_element_attributes()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_element_label()",
+			"contents": "get_element_label(${1: ${2:\\$classes} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_another()",
+			"contents": "add_another()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_sort_handle()",
+			"contents": "get_sort_handle()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_remove_handle()",
+			"contents": "get_remove_handle()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_collapse_handle()",
+			"contents": "get_collapse_handle()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::get_extra_element_classes()",
+			"contents": "get_extra_element_classes()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_user_form()",
+			"contents": "add_user_form(${1: ${2:\\$title} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_page_form()",
+			"contents": "add_page_form( ${1:\\$uniqid} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_term_form()",
+			"contents": "add_term_form( ${1:\\$title}, ${2:\\$taxonomies}${3:, ${4:\\$show_on_add}${5:, ${6:\\$show_on_edit}${7:, ${8:\\$parent}}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_meta_box()",
+			"contents": "add_meta_box( ${1:\\$title}, ${2:\\$post_types}${3:, ${4:\\$context}${5:, ${6:\\$priority}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_quickedit_box()",
+			"contents": "add_quickedit_box( ${1:\\$title}, ${2:\\$post_types}, ${3:\\$column_display_callback}${4:, ${5:\\$column_title}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::add_submenu_page()",
+			"contents": "add_submenu_page( ${1:\\$parent_slug}, ${2:\\$page_title}${3:, ${4:\\$menu_title}${5:, ${6:\\$capability}${7:, ${8:\\$menu_slug}}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Field::activate_submenu_page()",
+			"contents": "activate_submenu_page()"
+		},
+		{
+			"trigger": "Fieldmanager_Field::_unauthorized_access()",
+			"contents": "_unauthorized_access(${1: ${2:\\$debug_message} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::_invalid_definition()",
+			"contents": "_invalid_definition(${1: ${2:\\$debug_message} })"
+		},
+		{
+			"trigger": "Fieldmanager_Field::escape()",
+			"contents": "escape( ${1:\\$field}${2:, ${3:\\$default}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Options::add_options()",
+			"contents": "add_options( ${1:\\$options} )"
+		},
+		{
+			"trigger": "Fieldmanager_Options::form_data_elements()",
+			"contents": "form_data_elements( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Options::form_data_element()",
+			"contents": "form_data_element( ${1:\\$data_row}, ${2:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Options::option_selected()",
+			"contents": "option_selected( ${1:\\$current_option}, ${2:\\$options}, ${3:\\$attribute} )"
+		},
+		{
+			"trigger": "Fieldmanager_Options::presave_alter_values()",
+			"contents": "presave_alter_values( ${1:\\$values}${2:, ${3:\\$current_values}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Autocomplete::enqueue_scripts()",
+			"contents": "enqueue_scripts()"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::get_hour()",
+			"contents": "get_hour( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::get_minute()",
+			"contents": "get_minute( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datepicker::get_am_pm()",
+			"contents": "get_am_pm( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Group::add_child()",
+			"contents": "add_child( ${1:\\$child} )"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::sanitize()",
+			"contents": "sanitize( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::add_proto_id()",
+			"contents": "add_proto_id( ${1:\\$editor} )"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::customize_buttons()",
+			"contents": "customize_buttons( ${1:\\$buttons} )"
+		},
+		{
+			"trigger": "Fieldmanager_RichTextArea::editor_config()",
+			"contents": "editor_config( ${1:\\$mceInit} )"
+		},
+		{
+			"trigger": "Fieldmanager_Select::form_data_start_group()",
+			"contents": "form_data_start_group( ${1:\\$label} )"
+		},
+		{
+			"trigger": "Fieldmanager_Select::form_data_end_group()",
+			"contents": "form_data_end_group()"
+		},
+		{
+			"trigger": "Fieldmanager_Select::chosen_init()",
+			"contents": "chosen_init()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::meta_box_render_callback()",
+			"contents": "meta_box_render_callback()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::render_meta_box()",
+			"contents": "render_meta_box( ${1:\\$post}${2:, ${3:\\$form_struct}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::remove_meta_boxes()",
+			"contents": "remove_meta_boxes()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::save_fields_for_attachment()",
+			"contents": "save_fields_for_attachment( ${1:\\$post}, ${2:\\$attachment} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::delegate_save_post()",
+			"contents": "delegate_save_post( ${1:\\$post_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::save_fields_for_post()",
+			"contents": "save_fields_for_post( ${1:\\$post_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::save_fields_for_cron()",
+			"contents": "save_fields_for_cron( ${1:\\$post_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::save_to_post_meta()",
+			"contents": "save_to_post_meta( ${1:\\$post_id}${2:, ${3:\\$data}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Post::safe_update_post()",
+			"contents": "safe_update_post( ${1:\\$args} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::add_custom_columns()",
+			"contents": "add_custom_columns( ${1:\\$columns} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::manage_custom_columns()",
+			"contents": "manage_custom_columns( ${1:\\$column_name}, ${2:\\$post_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::add_quickedit_box()",
+			"contents": "add_quickedit_box( ${1:\\$column_name}, ${2:\\$post_type}${3:, ${4:\\$values}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::render_ajax_form()",
+			"contents": "render_ajax_form()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::save_fields_for_quickedit()",
+			"contents": "save_fields_for_quickedit( ${1:\\$post_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_QuickEdit::save_to_post_meta()",
+			"contents": "save_to_post_meta( ${1:\\$post_id}${2:, ${3:\\$data}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::register_submenu_page()",
+			"contents": "register_submenu_page()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::render_submenu_page()",
+			"contents": "render_submenu_page()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::handle_submenu_save()",
+			"contents": "handle_submenu_save()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::save_submenu_data()",
+			"contents": "save_submenu_data(${1: ${2:\\$data} })"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Submenu::url()",
+			"contents": "url()"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::add_term_fields()",
+			"contents": "add_term_fields( ${1:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::edit_term_fields()",
+			"contents": "edit_term_fields( ${1:\\$term}, ${2:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::term_fields()",
+			"contents": "term_fields( ${1:\\$html_template}, ${2:\\$taxonomy}${3:, ${4:\\$term}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::save_term_fields()",
+			"contents": "save_term_fields( ${1:\\$term_id}, ${2:\\$tt_id}, ${3:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::save_to_term_meta()",
+			"contents": "save_to_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}${3:, ${4:\\$data}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_Term::delete_term_fields()",
+			"contents": "delete_term_fields( ${1:\\$term_id}, ${2:\\$tt_id}, ${3:\\$taxonomy}, ${4:\\$deleted_term} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_User::render_user_form()",
+			"contents": "render_user_form( ${1:\\$user} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_User::save_user_form()",
+			"contents": "save_user_form( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Context_User::save_to_user_meta()",
+			"contents": "save_to_user_meta( ${1:\\$user_id}${2:, ${3:\\$data}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::get_value()",
+			"contents": "get_value( ${1:\\$id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::get_items()",
+			"contents": "get_items(${1: ${2:\\$fragment} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::get_ajax_action()",
+			"contents": "get_ajax_action()"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::get_items_for_ajax()",
+			"contents": "get_items_for_ajax(${1: ${2:\\$fragment} })"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::autocomplete_search()",
+			"contents": "autocomplete_search()"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::presave_alter_values()",
+			"contents": "presave_alter_values( ${1:\\$field}, ${2:\\$values}, ${3:\\$current_values} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::preload_alter_values()",
+			"contents": "preload_alter_values( ${1:\\$field}, ${2:\\$values} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::presave()",
+			"contents": "presave( ${1:\\$field}, ${2:\\$value}, ${3:\\$current_value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::get_view_link()",
+			"contents": "get_view_link( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource::get_edit_link()",
+			"contents": "get_edit_link( ${1:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::title_like()",
+			"contents": "title_like( ${1:\\$where}, ${2:\\$wp_query} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Post::presave_status_transition()",
+			"contents": "presave_status_transition( ${1:\\$field}, ${2:\\$value} )"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::get_taxonomies()",
+			"contents": "get_taxonomies()"
+		},
+		{
+			"trigger": "Fieldmanager_Datasource_Term::save_taxonomy()",
+			"contents": "save_taxonomy( ${1:\\$tax_values}, ${2:\\$data_id} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::instance()",
+			"contents": "instance()"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::setup()",
+			"contents": "setup()"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::create_content_type()",
+			"contents": "create_content_type()"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::get_term_meta()",
+			"contents": "get_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}${3:, ${4:\\$meta_key}${5:, ${6:\\$single}}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::add_term_meta()",
+			"contents": "add_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}, ${3:\\$meta_key}, ${4:\\$meta_value}${5:, ${6:\\$unique}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::update_term_meta()",
+			"contents": "update_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}, ${3:\\$meta_key}, ${4:\\$meta_value}${5:, ${6:\\$meta_prev_value}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::delete_term_meta()",
+			"contents": "delete_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}, ${3:\\$meta_key}${4:, ${5:\\$meta_value}} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::get_term_meta_post_id()",
+			"contents": "get_term_meta_post_id( ${1:\\$term_id}, ${2:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::get_term_meta_post_id_cache_key()",
+			"contents": "get_term_meta_post_id_cache_key( ${1:\\$term_id}, ${2:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::delete_term_meta_post_id_cache()",
+			"contents": "delete_term_meta_post_id_cache( ${1:\\$term_id}, ${2:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::add_term_meta_post()",
+			"contents": "add_term_meta_post( ${1:\\$term_id}, ${2:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Term_Meta::collect_garbage()",
+			"contents": "collect_garbage( ${1:\\$term_id}, ${2:\\$tt_id}, ${3:\\$taxonomy} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Validation::instance()",
+			"contents": "instance( ${1:\\$form_id}, ${2:\\$context} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Validation::add_field()",
+			"contents": "add_field( ${1:\\$fm} )"
+		},
+		{
+			"trigger": "Fieldmanager_Util_Validation::add_validation()",
+			"contents": "add_validation()"
+		},
+		{
+			"trigger": "fieldmanager_enqueue_scripts",
+			"contents": "fieldmanager_enqueue_scripts()"
+		},
+		{
+			"trigger": "fieldmanager_get_baseurl",
+			"contents": "fieldmanager_get_baseurl()"
+		},
+		{
+			"trigger": "fieldmanager_get_template",
+			"contents": "fieldmanager_get_template( ${1:\\$tpl_slug} )"
+		},
+		{
+			"trigger": "fieldmanager_load_class",
+			"contents": "fieldmanager_load_class( ${1:\\$class} )"
+		},
+		{
+			"trigger": "fieldmanager_load_file",
+			"contents": "fieldmanager_load_file( ${1:\\$file} )"
+		},
+		{
+			"trigger": "fieldmanager_set_baseurl",
+			"contents": "fieldmanager_set_baseurl( ${1:\\$path} )"
+		},
+		{
+			"trigger": "fieldmanager_util_term_meta",
+			"contents": "fieldmanager_util_term_meta()"
+		},
+		{
+			"trigger": "fieldmanager_util_validation",
+			"contents": "fieldmanager_util_validation( ${1:\\$form_id}, ${2:\\$context} )"
+		},
+		{
+			"trigger": "fm_add_script",
+			"contents": "fm_add_script( ${1:\\$handle}, ${2:\\$path}${3:, ${4:\\$deps}${5:, ${6:\\$ver}${7:, ${8:\\$in_footer}${9:, ${10:\\$data_object}${11:, ${12:\\$data}${13:, ${14:\\$plugin_dir}${15:, ${16:\\$admin}}}}}}}} )"
+		},
+		{
+			"trigger": "fm_add_style",
+			"contents": "fm_add_style( ${1:\\$handle}, ${2:\\$path}${3:, ${4:\\$deps}${5:, ${6:\\$ver}${7:, ${8:\\$media}${9:, ${10:\\$admin}}}}} )"
+		},
+		{
+			"trigger": "fm_add_term_meta",
+			"contents": "fm_add_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}, ${3:\\$meta_key}, ${4:\\$meta_value}${5:, ${6:\\$unique}} )"
+		},
+		{
+			"trigger": "fm_delete_term_meta",
+			"contents": "fm_delete_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}, ${3:\\$meta_key}${4:, ${5:\\$meta_value}} )"
+		},
+		{
+			"trigger": "fm_get_context",
+			"contents": "fm_get_context()"
+		},
+		{
+			"trigger": "fm_get_term_meta",
+			"contents": "fm_get_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}${3:, ${4:\\$meta_key}${5:, ${6:\\$single}}} )"
+		},
+		{
+			"trigger": "fm_match_context",
+			"contents": "fm_match_context( ${1:\\$context}${2:, ${3:\\$type}} )"
+		},
+		{
+			"trigger": "fm_register_submenu_page",
+			"contents": "fm_register_submenu_page( ${1:\\$group_name}, ${2:\\$parent_slug}, ${3:\\$page_title}${4:, ${5:\\$menu_title}${6:, ${7:\\$capability}${8:, ${9:\\$menu_slug}}}} )"
+		},
+		{
+			"trigger": "fm_sanitize_textarea",
+			"contents": "fm_sanitize_textarea( ${1:\\$value} )"
+		},
+		{
+			"trigger": "fm_trigger_context_action",
+			"contents": "fm_trigger_context_action()"
+		},
+		{
+			"trigger": "fm_update_term_meta",
+			"contents": "fm_update_term_meta( ${1:\\$term_id}, ${2:\\$taxonomy}, ${3:\\$meta_key}, ${4:\\$meta_value}${5:, ${6:\\$meta_prev_value}} )"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+${1:\$fm = }new Fieldmanager_Group( array(
+	'name' => '${2:field}'${3:,
+	'label' => __( '${4:Label}', '${5:locale}' )}${6:,
+	'limit' => ${7:0}}${8:,
+	'add_more_label' => __( '${9:Add another Meta Box}', '${5}' )}${10:,
+	'sortable' => true}${11:,
+	'collapsible' => true}${12:,
+	'children' => array(
+		$0
+	)}
+) )${13:;
+\$fm->${14:add_meta_box}( ${15:__( '${16:Meta Box Label}', '${5}' ), '${17:post}'} );}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fmgroup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
